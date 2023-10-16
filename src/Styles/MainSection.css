@@ -1,0 +1,67 @@
+.mainSection {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.text p {
+    font-weight: 500;
+    color: gray;
+}
+
+.form-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    gap: 23px;
+    flex-direction: column;
+    max-width: 472px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+
+.primary-btn-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    height: 40px;
+    padding: 2px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+form textarea {
+    padding: 5px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submit {
+    display: flex;
+    justify-content: end;
+}
+
+.img-container {
+    max-width: 608px;
+}

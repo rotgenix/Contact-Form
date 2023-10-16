@@ -1,0 +1,30 @@
+.primary-btn {
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    justify-content: center;
+}
+
+.outline-btn {
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    font-weight: 500;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-block: 10px;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}

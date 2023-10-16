@@ -1,0 +1,26 @@
+.navbar {
+    max-width: 1300px;
+    height: 72px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #2E2E2E;
+}

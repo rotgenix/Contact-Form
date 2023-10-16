@@ -1,0 +1,62 @@
+@media (max-width:1300px) {
+
+    .navbar,
+    .mainSection {
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .primary-btn-container {
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primary-btn {
+        width: 100%;
+    }
+
+    .form-img-container {
+        margin-top: 35px;
+    }
+
+    .btn-container,
+    form {
+        width: 40vw;
+    }
+
+    .img-container {
+        width: 60vw;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+}
+
+@media (max-width:750px) {
+    .form-img-container {
+
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .form-container {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .btn-container,
+    form {
+        width: 100%;
+    }
+
+    .text h1 {
+        text-align: center;
+
+    }
+}
