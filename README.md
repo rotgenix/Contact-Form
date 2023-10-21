@@ -1,7 +1,39 @@
-This is contact form page developed in React JS.
-Main purpose of this project was to learn about Components deeply and their re-uasge as well, and how to pass props and use them by destructuring and without destructuring as well.
-You can watch the project live here: https://genix-contact-page.netlify.app/
 
-Technologies Used in this project are:
-The project was created using Vite
-ReactJS(HTML, HTML form, CSS, and obviously JavaScript)
+# Contact Form
+A contact form developed using ReactJS. Developed for the learning purpose of React Component and Props and their destructuring.
+
+Check it Live: https://genix-contact-page.netlify.app/
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/rotgenix/contact-form/main/src/Images/Screenshot%20(701).png)
+
+
+![App Screenshot](https://raw.githubusercontent.com/rotgenix/contact-form/main/src/Images/Screenshot%20(702).png)
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/rotgenix/contact-form.git
+```
+
+Go to the project directory
+
+```bash
+  cd contact-form
+```
+Install the project dependencies
+
+```bash
+  npm i
+```
+Now run the command to start the project
+
+```bash
+  npm run dev
+```
+
+Now open the link in your browser http://localhost:5173/
